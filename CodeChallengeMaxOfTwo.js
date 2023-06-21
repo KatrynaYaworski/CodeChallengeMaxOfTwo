@@ -14,11 +14,11 @@ As an additional challenge, print out The values are identical. if x and y have 
 let x = 5
 let y = 5
 
-function MaxOfTwo(a, b){
-    if(x > y){
-        return x
-    }else if(y > x){
-        return y
-    } else return (`both ${a} and ${b} are equal`)
+function MaxOfTwo(a, b) {
+    if (a > b) {
+        return a
+    } else if (b > a) {
+        return b
+    } else return (`both ${a} and ${b} are identical`)
 }
 console.log(MaxOfTwo(x, y))
